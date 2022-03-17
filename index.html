@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="scores" href="./assets/scores.html">
+    <script defer src="./assets/java/script.js"></script>
+    <title>Coding Quiz!</title>
+  </head>
+
+  <header>
+    <div class="timer-box">
+      Timer:<span id="timer-count">30</span> seconds
+    </div>
+  </header>
+
+<body>
+<div class="container">
+  <div id="question-container" class="hide">
+    <div id="question">Question</div>
+    <div id="answer-buttons" class="btn-grid">
+      <button class="btn">Answer1</button>
+      <button class="btn">Answer2</button>
+      <button class="btn">Answer3</button>
+      <button class="btn">Answer4</button>
+    </div>
+  </div>
+  <div class="controls">
+    <button id="start-btn" class="start-btn btn">Start</button>
+    <button id="next-btn" class="next-btn btn hide">Next</button>
+    <button id="finalize-btn" class="finalize-btn btn hide"><a href="./assets/scores.html">Finalize</a></button>
+  </div>
+</div>
+</body>
+</html>
